@@ -1,0 +1,100 @@
+  body {
+    margin: 0;
+    font-family: "Georgia", serif;
+    background: linear-gradient(to bottom, #330000, #111);
+    color: white;
+    text-align: center;
+  }
+
+  .navbar {
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar h1 {
+    font-family: "UnifrakturCook", cursive;
+    font-size: 50px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+  }
+
+  .nav-links {
+    margin-right: 30px;
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+
+  
+  .welcome {
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  
+  .main-image img {
+    width: 80%;
+    max-width: 700px;
+    border-radius: 6px;
+    margin: 30px 0;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+  }
+
+  
+  .description {
+    width: 80%;
+    max-width: 750px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ddd;
+  }
+
+  
+  .choose-text {
+    margin-top: 40px;
+    color: #b8860b;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 20px;
+  }
+
+  .cards img {
+    width: 130px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+
+  .cards img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+  }
+
+  .tap-text {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #aaa;
+    letter-spacing: 1px;
+  }
